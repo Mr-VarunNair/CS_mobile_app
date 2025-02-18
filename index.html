@@ -18,56 +18,43 @@
         }
 
         .intro-section {
-            display: flex;
-            align-items: center;
-            background-color: #e6433a;
-            color: #fff;
-            padding: 40px 20px;
-            flex-wrap: wrap;
-        }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e6433a;
+    color: #fff;
+    padding: 20px 10px; /* Reduce padding to make it smaller */
+    flex-wrap: wrap;
+    min-height: 250px; /* Set a smaller minimum height */
+}
 
-        .intro-text {
-            flex: 1;
-            padding: 20px;
-        }
+.intro-text {
+    flex: 1;
+    padding: 10px; /* Reduce padding */
+}
 
-        .intro-text h1 {
-            font-size: 36px;
-            font-weight: 600;
-            margin: 0 0 20px;
-        }
+.intro-text h1 {
+    font-size: 28px; /* Reduce font size */
+    margin: 0 0 15px;
+}
 
-        .intro-text p {
-            font-size: 18px;
-            margin: 10px 0;
-            line-height: 1.6;
-        }
+.intro-text p {
+    font-size: 18px; /* Reduce font size */
+    margin: 10px 0;
+    line-height: 1.4;
+}
 
-        .intro-text .btn {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            background-color: #fff;
-            color: #FF5A5F;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-        }
+.intro-image {
+    flex: 1;
+    text-align: center;
+}
 
-        .intro-text .btn:hover {
-            background-color: #ffe2e4;
-            color: black;
-        }
+.intro-image img {
+    max-width: 50%; /* Reduce image size */
+    height: auto;
+    border-radius: 10px;
+}
 
-        .intro-image {
-            flex: 1;
-            text-align: center;
-        }
-
-        .intro-image img {
-            max-width: 100%;
-            border-radius: 10px;
-        }
 
         .flex-section-components {
             display: flex;
@@ -81,7 +68,7 @@
 
         .flex-section-components .text-content {
             flex: 1;
-            padding: 40px;
+            /*padding: 40px;*/
             text-align: left;
         }
 
